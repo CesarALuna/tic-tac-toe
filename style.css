@@ -20,6 +20,7 @@ body {
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(3, auto);
+    background-color: #f7fcfe;
 }
 
 .cell {
@@ -110,7 +111,7 @@ body {
 .board.o .cell:not(.x):not(.o):hover::after {
     width: calc(var(--mark-size) * .7);
     height: calc(var(--mark-size) * .7);
-    background-color: white;
+    background-color: #f7fcfe;
 }
 
 .winning-message {
