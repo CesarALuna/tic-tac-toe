@@ -1,5 +1,5 @@
 # tic-tac-toe
-simple browser-based tic-tac-toe game using html, css, javascript
+simple browser-based tic-tac-toe game using html, css, javascript. [play it here](https://cesaraluna.github.io/tic-tac-toe/)
 
 ## topics covered
     dynamic html elements
@@ -9,4 +9,4 @@ simple browser-based tic-tac-toe game using html, css, javascript
     setting game logic in javascript (win, loss , draw)
     
 
-See this project topic @ the odin project: https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe
+See this project topic @ [the odin project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe)
