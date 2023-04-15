@@ -1,9 +1,21 @@
-#gameboard {
-  display: flex;
-  flex-wrap: wrap;
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
   justify-content: center;
-  align-items: center;
-  height: 300px;
+  width: 550px;
+  margin-top: 100px;
+}
+
+#gameboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  width: 500px;
   justify-content: center;
 }
 
@@ -14,8 +26,16 @@
   border: 1px solid #222;
   justify-content: center;
   align-items: center;
-  width: 25%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
   text-align: center;
   font-size: 6rem;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+  width: 100%;
 }
